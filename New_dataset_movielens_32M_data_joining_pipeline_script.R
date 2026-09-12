@@ -34,6 +34,6 @@ final_report<- join_report %>% distinct() %>%
   select(userId,movieId,rating,Total_Tags)
 final_report
 write.csv(final_report,
-          'New_dataset_movielens_32M_data_joining_pieline_data.csv',
+          'New_dataset_movielens_32M_data_joining_pipeline_data.csv',
           row.names = FALSE)
 getwd()
